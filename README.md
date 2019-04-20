@@ -102,6 +102,11 @@ Any value goes, given the limitation that there is no sanity checks for somethin
 
 The default default is `null`.
 
+## Why not use `\${.+}`?
+Using `\${.+}` introduces too many conflicts, as there are reasonable use cases for passing an env var as a literal in a
+string. We agree that it would make things simpler from a basic use-case perspective, but the level of complexity of the
+project jumps like crazy if we need to support denoting that we want to _keep_ the literal string vs. parsing it.
+
 # "Hacking on the source"
 Code is in `./src`, and tests are in `./tests`. 
 
