@@ -95,11 +95,11 @@ Supported types:
 - String via `string` (or no type, but useful as you need to define the type if you want to use a default value)
 
 ## Default Values
-Any value goes, given the limitation that there is no sanity checks for something like:
+Any value goes, given the limitation that there are no sanity checks for something like:
 ```text
 {{DB_HOST:int:789.0909}}
 ```
-
+### Default default
 The default default is `null`.
 
 ## Why not use `\${.+}`?
