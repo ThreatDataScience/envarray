@@ -2,7 +2,7 @@ EnvArray
 --------
 
 # Summary
-EnvArray allows you to auto-magially fill array values with env vars. It's zero-dependency as well (outside of PHPUnit 
+EnvArray allows you to auto-magically fill array values with env vars. It's zero-dependency as well (outside of PHPUnit 
 for development/your sanity).
 
 # Usage
