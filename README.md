@@ -1,5 +1,7 @@
 EnvArray
 --------
+[![Build Status](https://travis-ci.org/ThreatDataScience/envarray.svg?branch=master)](https://travis-ci.org/ThreatDataScience/envarray)
+[![codecov](https://codecov.io/gh/ThreatDataScience/envarray/branch/master/graph/badge.svg)](https://codecov.io/gh/ThreatDataScience/envarray)
 
 # Summary
 EnvArray allows you to auto-magically fill array values with env vars. It's zero-dependency as well (outside of PHPUnit 
