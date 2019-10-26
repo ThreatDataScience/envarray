@@ -1,5 +1,5 @@
 {
-  "name": "threatdatascience/envar",
+  "name": "threatdatascience/envarray",
   "type": "library",
   "description": "Automagically replace leaf values in a multidimensional array with env vars",
   "version": "1.0.1",
