@@ -35,7 +35,7 @@ $array = $envArray->fill($array);
  *  [
  *    'database' => [
  *      'host' => 'mysql.myhost.com',
- *      'port' => '3306',
+ *      'port' => 3306,
  *      'user' => 'webmaster',
  *      'password' => 'weakpassword'
  *    ]
